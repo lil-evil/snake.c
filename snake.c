@@ -296,7 +296,7 @@ int render(WINDOW *display, int key, int *y, int *x, int *z, int **queue, int *p
             *z = 1;
         }
         break;
-    default:
+    default: ;
         int ox = *x, oy = *y;
         if (*z == 0)
         {
